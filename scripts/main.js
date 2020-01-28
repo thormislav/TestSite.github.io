@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$("#toggle-nav").click(function(){$(this).toggleClass("open"),$("nav").slideToggle(300)}),$("#arrow-down").click(function(){$("html, body").animate({scrollTop:$(".about").offset().top},800)})});
